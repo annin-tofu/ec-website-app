@@ -29,7 +29,8 @@ function Product({ id, title, price, description, category, image }) {
       </div>
       <p className="text-xs my-2 line-clamp-2">{description}</p>
       <div className="mb-5">
-        <Currency quantity={price} currency="JPY" />
+        {/*USDJPY currency rate=108*/}
+        <Currency quantity={Math.trunc(108 * price)} currency="JPY" />
       </div>
       {hasPrime && (
         <div className="flex items-center space-x-2 -mt-5">
