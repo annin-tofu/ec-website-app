@@ -52,7 +52,8 @@ function CheckoutProduct({
         </div>
 
         <p className="text-xs my-2 line-clamp-3">{description}</p>
-        <Currency quantity={price * 108} currency="JPY" />
+        {/*USDJPY currency rate=108*. How do it truncate if JPY is used? (no decimal points) so use USD for now*/}
+        <Currency quantity={price} currency="USD" />
 
         {hasPrime && (
           <div className="flex items-center space-x-2">

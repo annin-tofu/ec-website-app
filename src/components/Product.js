@@ -48,8 +48,8 @@ function Product({ id, title, price, description, category, image }) {
       </div>
       <p className="text-xs my-2 line-clamp-2">{description}</p>
       <div className="mb-5">
-        {/*USDJPY currency rate=108*/}
-        <Currency quantity={Math.trunc(108 * price)} currency="JPY" />
+        {/*USDJPY currency rate=108*. How do it truncate if JPY is used? (no decimal points) so use USD for now*/}
+        <Currency quantity={price} currency="USD" />
       </div>
       {hasPrime && (
         <div className="flex items-center space-x-2 -mt-5">

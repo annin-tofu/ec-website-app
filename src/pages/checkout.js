@@ -55,7 +55,8 @@ function Checkout() {
               <h2 className="whitespace-nowrap">
                 Subtotal ({items.length} items):{" "}
                 <span className="font-bold">
-                  <Currency quantity={total * 108} currency="JPY" />
+                  {/*USDJPY currency rate=108*. How do it truncate if JPY is used? (no decimal points) so use USD for now*/}
+                  <Currency quantity={total} currency="USD" />
                 </span>
               </h2>
 
