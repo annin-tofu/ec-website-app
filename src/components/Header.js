@@ -18,10 +18,11 @@ function Header() {
     <header className="sticky top-0 z-50">
       {/* Top nav */}
       <div className="flex iterms-center bg-amazon_blue p-1 flex-grow py-2">
-        <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
+        <div className="flex items-center flex-grow sm:flex-grow-0">
           <Image
             onClick={() => router.push("/")}
-            src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1626228999/llamazon_n4qjdo.png"
+            //Logo changed 20210716
+            src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1626397972/icon-symbols-e-shopper-online-logo-template-vector-23367307_zesxgt.png"
             width={150}
             height={40}
             objectFit="contain"
