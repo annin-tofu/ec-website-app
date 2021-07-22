@@ -40,7 +40,7 @@ function Checkout() {
         <div className="flex-grow m-5 shadow-sm">
           {/* CHECKOUT IMAGE UPPER changed 20210716*/}
           <Image
-            src="https://res.cloudinary.com/dhyagpwyl/image/upload/v1626396673/Screen_Shot_2021-07-16_at_9.50.49_aqyzoi.png"
+            src="https://links.papareact.com/ikj"
             width={1020}
             height={250}
             objectFit="contain"
