@@ -88,6 +88,7 @@ function Checkout() {
                   "from-gray-300 to-gray-500 border-gray-200 text-gray-300 cursor-not-allowed"
                 }`}
               >
+                {/* When there is no item in the cart, shows "Your Basket is empty." Otherwise, shows "Shopping Basket" */}
                 {!session ? "Sign in to checkout" : "Proceed to checkout"}
               </button>
             </>
