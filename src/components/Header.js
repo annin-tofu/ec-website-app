@@ -17,7 +17,7 @@ function Header() {
   return (
     <header className="sticky top-0 z-50">
       {/* Top nav */}
-      <div className="flex iterms-center bg-amazon_blue p-1 flex-grow py-2">
+      <div className="flex iterms-center bg-yellow-900 p-1 flex-grow py-2">
         <div className="flex items-center flex-grow sm:flex-grow-0">
           <Image
             onClick={() => router.push("/")}
@@ -57,7 +57,7 @@ function Header() {
             className="cursor-pointer link"
           >
             <p>Returns</p>
-            <p className="font-extrabold md:text-sm">& Orders</p>
+            <p className="font-extrabold md:text-sm">& Orders</p>ω
           </div>
 
           <div
