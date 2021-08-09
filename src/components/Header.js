@@ -57,7 +57,7 @@ function Header() {
             className="cursor-pointer link"
           >
             <p>Returns</p>
-            <p className="font-extrabold md:text-sm">& Orders</p>ω
+            <p className="font-extrabold md:text-sm">& Orders</p>
           </div>
 
           <div
